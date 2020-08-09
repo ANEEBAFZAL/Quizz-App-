@@ -1,0 +1,31 @@
+#btn-next{
+    color: black !important;
+}
+
+.card-text {
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.card-text:hover,
+.active{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c3ca7, #1c08f5, #7e78b4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #58a76c, #2b3d63, #1d184b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+
+
+body{
+    text-align: center;
+}
+
+#btn-next,#btn-start{
+    background-color: rgb(147, 86, 218);
+}
+.wrapper, .wrap{
+    margin: 50px;
+
+  
+}
+
